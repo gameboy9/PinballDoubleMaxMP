@@ -16,6 +16,7 @@ namespace PinballDoubleMaxMP.Classes
 		public List<Player> opponents = new List<Player>();
 		public List<Machine> machines = new List<Machine>();
 		public DateTime breakStart = new DateTime();
+		public int breakLength = 0;
 		public List<int> positionCount = new List<int>();
 
 		// Constructor to initialize a player with a unique ID
